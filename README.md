@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Repositorio de la página web de documentación de usuarios de SACVeFor.
+Repositorio de la página web de documentación de usuarios de SACVeFor. Rama develop
 
 El proyecto se basa en el framework [HUGO](https://gohugo.io/) que permite crear páginas web estáticas utilizando [plantillas](https://themes.gohugo.io/), de forma ágil y sencilla.
 
