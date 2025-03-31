@@ -1,0 +1,26 @@
+baseURL = ''
+languageCode = 'es'
+title = 'SACVeFor Documentación'
+theme = 'hugo-theme-relearn'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputs]
+home = [ "HTML", "RSS", "PRINT", "SEARCH"]
+section = ["HTML", "RSS", "PRINT"]
+page = ["HTML", "RSS", "PRINT"]
+
+[params]
+author= "Tomás Marmoni"
+description = "Documentación de SACVeFor"
+collapsibleMenu = true
+themeVariant = ["green", "relearn-dark"]
+disableLandingPageButton = true
+disableShortcutsTitle=true
+
+
+[[languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Registro de cambios"
+url = "changelog/"
+weight = 1
